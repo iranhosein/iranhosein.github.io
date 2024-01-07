@@ -1,0 +1,21 @@
+/*my font*/
+@import url('https://fonts.googleapis.com/css?family=Laila');
+*{ font-family: Laila; }
+/* * {border: blue 1px solid;} */
+header {
+	/* height: 40px; */
+	padding: 50px;
+	display: block;
+	background-color: rgba(0,0,255,0.3);
+	line-height: 40px;
+}
+.main {
+	background-image: url('https://www.google.ca/imgres?imgurl=https%3A%2F%2Fwww.guelphhumber.ca%2Fsites%2Fall%2Fthemes%2Fguelphhumber%2Fimages%2Fdefault_thumbnails%2Fbuilding.jpg&imgrefurl=https%3A%2F%2Fwww.guelphhumber.ca%2F&docid=cSDu3xcK1D1dyM&tbnid=hb5V9fbyxWfi3M%3A&vet=10ahUKEwjoseDd7t_gAhVOvKwKHaBdCC4QMwhVKAAwAA..i&w=741&h=450&safe=strict&client=safari&bih=579&biw=1101&q=university%20of%20guelph%20humber&ved=0ahUKEwjoseDd7t_gAhVOvKwKHaBdCC4QMwhVKAAwAA&iact=mrc&uact=8');
+	background-size: 100%;
+	padding: 50px;
+}
+#movies {
+  backgound: pink;
+}
+
+  
