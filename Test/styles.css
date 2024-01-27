@@ -1,0 +1,301 @@
+a{
+color:#267ed5;
+text-decoration:none;
+}
+
+a:hover{
+text-decoration:underline;
+}
+
+html{
+background-color:#b2b2b2;
+}
+
+img {
+  border: 0px;
+  max-width: 85%;
+  max-height: 85%;
+}
+
+#doc{
+width:1000px;
+background-color:#FFFFFF;
+margin-top:15px;
+margin-bottom:15px;
+}
+
+#footer {
+  background-color:#444444;
+  color:#FFFFFF;
+  padding: 5px 10px;
+  margin-top: 25px;
+}
+#footer a {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+footer a:hover {
+  color: #ffffff;
+  text-decoration: none;
+  font-style: italic;
+}
+
+#header {
+  overflow: hidden;
+  width: 100%;
+  background-color:#444444;
+  color:#FFFFFF;
+}
+#header_left {
+  float: left;
+  margin: 0px;
+  width: 50%;
+  padding: 0px;
+}
+#header_left_content {
+  text-align: left;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: lighter;
+  padding: 12px 10px 8px 20px;
+  color: white;
+}
+#header_right {
+  float: left;
+  margin: 0px;
+  width: 50%;
+  padding: 0px;
+}
+#header_right_content {
+  text-align: right;
+  padding: 12px 20px 8px 10px;
+}
+#header a {
+  text-decoration: none;
+  color: white;
+}
+
+#by-jure{
+margin-left:10px;
+margin-right:520px;
+}
+
+#mld-logo{
+margin-right:20px;
+}
+
+#graphgarden-logo{
+display:block;
+margin:10px;
+}
+
+#right-column{
+margin-left: 150px;
+padding-right: 30px;
+}
+
+#left-column{
+float:left;
+width: 150px;
+}
+
+#xhdr{
+  font-weight:bold;
+  text-decoration:underline;
+  color:#2968d0;
+}
+
+#graphgardenmainmenu{
+width: 150px;
+margin: 0px 15px 0px 30px;
+}
+
+#links-under-menu{
+width: 120px;
+margin: 20px 0px 20px 30px;
+}
+
+#links-under-menu li {
+  list-style-type:square;
+  color:#ff8b00;  
+  font-weight:bold;
+}
+
+#links-under-menu2 li {
+  list-style-type:square;
+  color:gray;  
+  font-weight:normal;
+}
+
+h1{
+  color:#ff8b00; 
+  font-size:36px; 
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+}
+
+h2 {
+  font-size:20px;
+  font-family:Arial, Helvetica, sans-serif;
+  margin: 17px 0px 13px 0px;
+  color:#6eaf2f;
+  font-weight:bold;
+}
+
+h3 {
+  font-size:14px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  margin: 16px 0px 12px 0px;
+  color:#ff8b00;
+}
+
+p{
+margin: 10px 0px;
+line-height:1.5em;
+}
+
+td{
+padding:3px;
+}
+
+.code{
+font-family:"Courier New", Courier, monospace;
+white-space: pre;
+background: #eeeeee;
+border: 1px solid #888888;
+color: black;
+padding: 1em;
+}
+
+.fixed-width{
+font-family:"Courier New", Courier, monospace;
+white-space: pre;
+}
+
+b,
+strong{
+font-weight:bold;
+}
+
+i,
+em{
+font-style:italic;
+}
+
+ul,
+ol{
+margin-left: 25px;
+margin-top: 10px;
+margin-bottom:10px;
+}
+
+ul li{
+list-style-type:disc;
+margin: 5px;
+}
+
+ol li{
+list-style-type: decimal;
+margin: 5px;
+}
+
+ul li.R {
+  margin: 15px;
+  list-style-image : url(http://cs.stanford.edu/people/jure/images/arr_r_red.gif);
+}
+
+ul li.B {
+  margin: 15px;
+  list-style-image : url(http://cs.stanford.edu/people/jure/images/arr_r_blue.gif);
+}
+
+ul li.K {
+  margin: 15px;
+  list-style-image : url(http://cs.stanford.edu/people/jure/images/arr_r_black.png);
+}
+
+/* ===== Datasets table ===== */
+#datatab
+{
+background: white;
+margin: 10px;
+border-collapse: collapse;
+text-align: left;
+}
+#datatab th
+{
+font-size: 14px;
+font-weight: normal;
+color: white;
+background: #74a743;
+padding: 5px 10px;
+text-align: left;
+}
+
+#datatab td
+{
+border-bottom: 1px solid #ccc;
+color: black;
+padding: 3px 8px;
+}
+
+#datatab tbody tr:hover td {
+color: #000;
+background: #eeeeee;
+}
+
+/* ===== for menu BEGIN ===== */
+#graphgardenmainmenu {
+position: static;
+}
+
+/*
+For IE 6: trigger "haslayout" for the anchor elements in the root Menu by
+setting the "zoom" property to 1.  This ensures that the selected state of
+MenuItems doesn't get dropped when the user mouses off of the text node of
+the anchor element that represents a MenuItem's text label.
+*/
+
+#graphgardenmainmenu .yuimenuitemlabel {
+_zoom: 1;
+}
+
+#graphgardenmainmenu .yuimenu .yuimenuitemlabel {
+_zoom: normal;
+}
+
+/* ===== for menu END ===== */
+
+
+/* ===== for callout BEGIN ===== */
+.call-out-green, .call-out-blue, .call-out-orange{
+margin: 30px 0px;
+color:#FFFFFF;
+padding:13px 20px;
+font-size:16px;
+font-family:Arial, Helvetica, sans-serif;
+line-height:1.4em;
+}
+
+.call-out-green{
+background:#74a743;
+}
+
+.call-out-blue{
+background:#45a3ff;
+}
+
+.call-out-orange{
+background:#ff8b00;
+}
+
+.call-out-gray{
+background:gray;
+}
+.call-out-green strong, .call-out-blue strong, .call-out-orange strong{
+font-weight:bold;
+}
+/* ===== for callout END ===== */
