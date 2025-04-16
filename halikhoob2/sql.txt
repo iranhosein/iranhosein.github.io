@@ -1,0 +1,8 @@
+CREATE TABLE students (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    full_name VARCHAR(255) NOT NULL,
+    national_id VARCHAR(10) NOT NULL,
+    phone VARCHAR(11) NOT NULL,
+    image_path VARCHAR(255) NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
